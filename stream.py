@@ -11,6 +11,6 @@ def get_live_stream_url(youtube_url):
     return result.stdout.strip().split('\n')[0]
 
 # Use the live stream URL
-youtube_url = "https://www.youtube.com/watch?v=w2gG6XjN1qk"
+youtube_url = "https://www.youtube.com/watch?v=mmWQOtvqjwo&ab_channel=SolentShips"
 stream_url = get_live_stream_url(youtube_url)
 print("Stream URL:", stream_url)
